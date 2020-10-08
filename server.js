@@ -21,7 +21,7 @@ express.urlencoded({ extended: true });
 
 app.use("/", apiRouter);
 
-let PORT = process.env.PORT || 3001;
+let PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
     console.log(`Server running on PORT ${PORT}`);
 });
